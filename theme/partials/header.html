@@ -1,0 +1,16 @@
+<header class="md-header-custom" >
+  <div class="navHeader pure-menu pure-menu-horizontal" >
+      <ul class="pure-menu-list">
+          <li class="pure-menu-item" >
+              <div>
+                  <input type="search" class="searchBox" placeholder="Search" onKeyPress="handleSearchKeyPress(event, '{{ config.extra.portalHostName }}')">
+              </div>
+          </li>
+          <li class="pure-menu-item header-list"><a href="{{ config.extra.portalHostName }}/dashboard/create" class="pure-menu-link">Create</a>
+          </li>
+          <li class="pure-menu-item header-list"><a href="{{ config.extra.portalHostName }}/dashboard/contact" class="pure-menu-link">About</a>
+          </li>
+      </ul>
+      <a href="{{ config.extra.portalHostName }}/dashboard/" class="pure-menu-heading pure-menu-link navTitle">APEX</a>
+  </div>
+</header>
